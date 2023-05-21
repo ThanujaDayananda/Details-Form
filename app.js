@@ -9,7 +9,7 @@ app.use(express.static('views'))
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({extended:true}))
 
-mongoose.connect('mongodb://localhost:27017/project',{
+mongoose.connect('mongodb+srv://thanujadayananda05:Thanuja2405@cluster0.zxajxng.mongodb.net/?retryWrites=true&w=majority',{
     useNewUrlParser: true,
     useUnifiedtopology:true
 });
